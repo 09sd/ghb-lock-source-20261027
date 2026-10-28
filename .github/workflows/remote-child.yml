@@ -12,4 +12,6 @@ jobs:
     steps:
       - name: Invoke source action
         uses: 09sd/ghb-lock-source-20261027@main
+      - name: Attacker moved workflow marker
+        run: echo "GHB_REMOTE_WORKFLOW_MOVED_UNTRUSTED_20261027"
       - run: echo "GHB_REMOTE_CHILD_DONE_20261027"

@@ -1,0 +1,7 @@
+name: Lock source action
+description: Controlled lockfile research action
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo "GHB_LOCKED_BENIGN_20261027"

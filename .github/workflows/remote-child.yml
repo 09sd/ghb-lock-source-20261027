@@ -1,0 +1,15 @@
+name: Remote lock child
+on:
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  invoke-source:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Invoke source action
+        uses: 09sd/ghb-lock-source-20261027@main
+      - run: echo "GHB_REMOTE_CHILD_DONE_20261027"

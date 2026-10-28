@@ -4,4 +4,4 @@ runs:
   using: composite
   steps:
     - shell: bash
-      run: echo "GHB_MOVED_BRANCH_UNTRUSTED_20261027"
+      run: echo "GHB_REMOTE_LOCK_BENIGN_20261027"

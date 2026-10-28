@@ -1,0 +1,10 @@
+version: v0.0.3
+workflows:
+  .github/workflows/remote-child.yml:
+    - 09sd/ghb-lock-source-20261027@main
+dependencies:
+  09sd/ghb-lock-source-20261027@main:
+    ref: main
+    commit: sha1-680b9b35282f93578c62edb28baba408aefe23d0
+    owner_id: 183424556
+    repo_id: 1436490099
